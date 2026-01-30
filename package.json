@@ -4,7 +4,7 @@
   "private": true,
   "description": "Actualizador ERP Dolormed",
   "scripts": {
-    "start": "hazel"
+    "start": "./node_modules/.bin/hazel"
   },
   "dependencies": {
     "hazel": "latest"
