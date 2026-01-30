@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "description": "Lightweight update server for Electron apps",
   "scripts": {
+    "start": "micro lib/index.js",
     "dev": "npx vercel dev",
     "test": "xo && jest",
     "precommit": "lint-staged"
